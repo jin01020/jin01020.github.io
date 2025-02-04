@@ -273,9 +273,6 @@
       {% endif %}
     </div>
 
-<div class="tldr">{{ entry.tldr }}</div>
-
-
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
@@ -390,5 +387,8 @@
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
+
+<div class="tldr">{{ entry.tldr }}</div>
+
   </div>
 </div>
