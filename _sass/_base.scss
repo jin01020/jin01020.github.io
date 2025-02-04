@@ -701,6 +701,7 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
+          font-size: 0.9rem; /* Adjust as needed */
 
           a {
             color: white;
@@ -721,6 +722,15 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
 
+      .tldr {
+        font-weight: normal;
+        // font-style: italic;
+        font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
+        font-size: 0.9em; /* 90% of the default size */
+      }
+      
+      
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
@@ -732,8 +742,9 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          border-bottom: 1px solid; 
           font-style: normal;
+          max-width: 80%;
         }
 
         > span.more-authors {

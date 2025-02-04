@@ -1,14 +1,22 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"ryou":
+  - firstname: ["Donghun"]
+    url: https://doinghun.com/
+
+"kim":
+  - firstname: ["Dongwan"]
+    url: https://numpee.com/
+
+"seo":
+  - firstname: ["Seonguk"]
+    url: https://seoseong.uk/
+
+"han":
+  - firstname: ["Bohyung"]
+    url: https://cv.snu.ac.kr/index.php/~bhhan/
 
 "podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
     url: https://en.wikipedia.org/wiki/Boris_Podolsky
-
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
 "bach":
   - firstname: ["Johann Sebastian", "J. S."]

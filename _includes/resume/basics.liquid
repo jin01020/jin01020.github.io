@@ -19,6 +19,10 @@
           <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>
         {% elsif content[0] == 'phone' %}
           <a href="tel:{{ content[1] }}">{{ content[1] }}</a>
+        {% elsif content[0] == 'linkedin' %}
+          <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">click here 👍</a>
+        {% elsif content[0] == 'google scholar' %}
+          <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">click here 🎓</a>
         {% else %}
           {{ content[1] }}
         {% endif %}
