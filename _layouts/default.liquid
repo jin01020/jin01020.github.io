@@ -17,6 +17,7 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <div id="particles-js"></div>
     <!-- Header -->
     {% include header.liquid %}
 
@@ -73,5 +74,29 @@
     {% include scripts/jekyll_tabs.liquid %}
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
+
+    {% comment %}
+      <script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          particlesJS('particles-js', {
+            particles: {
+              number: { value: 200, density: { enable: true, value_area: 800 } },
+              color: { value: '#0076df' },
+              shape: { type: 'polygon' },
+              opacity: { value: 0.1, random: false },
+              size: { value: 3, random: true },
+              line_linked: { enable: true, distance: 200, color: '#0076df', opacity: 0.1, width: 1 },
+              move: { enable: true, speed: 1 },
+            },
+            interactivity: {
+              detect_on: 'canvas',
+              events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'repulse' }, resize: true },
+            },
+            retina_detect: true,
+          });
+        });
+      </script>
+    {% endcomment %}
   </body>
 </html>

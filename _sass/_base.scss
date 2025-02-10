@@ -728,8 +728,6 @@ footer.sticky-bottom {
         font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive;
         font-size: 0.9em; /* 90% of the default size */
       }
-      
-      
 
       .author {
         a {
@@ -742,7 +740,7 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid; 
+          border-bottom: 1px solid;
           font-style: normal;
           max-width: 80%;
         }
@@ -1315,3 +1313,13 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// #particles-js {
+//   position: fixed;
+//   width: 100%;
+//   height: 100%;
+//   top: 0;
+//   left: 0;
+//   z-index: 1;
+//   transition: opacity 0.3s ease;
+// }
