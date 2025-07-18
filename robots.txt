@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://hij1112.github.io/sitemap.xml
