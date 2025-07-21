@@ -26,25 +26,7 @@ article{PhysRev.47.777,
   inspirehep_id = {3255}
 }
 
-@article{ha2024learning,
-    abbr={arXiv},
-    author = {Ha*, Inju and Ryou*, Donghun and Seo, Seonguk and Han, Bohyung},
-    abstract = {Image denoising techniques based on deep learning often struggle with poor generalization performance to out-of-distribution real-world noise. To tackle this challenge, we propose a novel noise translation framework that performs denoising on an image with translated noise rather than directly denoising an original noisy image. Specifically, our approach translates complex, unknown real-world noise into Gaussian noise, which is spatially uncorrelated and independent of image content, through a noise translation network. The translated noisy images are then processed by an image denoising network pretrained to effectively remove Gaussian noise, enabling robust and consistent denoising performance. We also design well-motivated loss functions and architectures for the noise translation network by leveraging the mathematical properties of Gaussian noise. Experimental results demonstrate that the proposed method substantially improves robustness and generalizability, outperforming state-of-the-art methods across diverse benchmarks.},
-    title = {Learning to Translate Noise for Robust Image Denoising},
-    journal = {arXiv preprint},
-    eprint = {2412.04727},
-    month     = {December},
-    year = {2024},
-    workshop = {DG-EBF Workshop, CVPR 2025},
-    project_page = {https://hij1112.github.io/learning-to-translate-noise/},
-    arxiv = {2412.04727},
-    code = {https://github.com/dhryougit/learning-to-translate-noise},
-    selected  = {true},
-    preview={learning.gif},
-    tldr = {TL;DR: We present a robust denoising framework that simplifies the removal of complex real-world noise by translating it into Gaussian noise.}
-}
-
-@InProceedings{Ryou_2024_CVPR,
+InProceedings{Ryou_2024_CVPR,
     abbr={CVPR 2024},
     author    = {Ryou, Donghun and Ha, Inju and Yoo, Hyewon and Kim, Dongwan and Han, Bohyung},
     abstract = {Image denoising approaches based on deep neural networks often struggle with overfitting to specific noise distributions present in training data. This challenge persists in existing real-world denoising networks, which are trained using a limited spectrum of real noise distributions, and thus, show poor robustness to out-of-distribution real noise types. To alleviate this issue, we develop a novel training framework called Adversarial Frequency Mixup (AFM). AFM leverages mixup in the frequency domain to generate noisy images with distinctive and challenging noise characteristics, all the while preserving the properties of authentic real-world noise. Subsequently, incorporating these noisy images into the training pipeline enhances the denoising network's robustness to variations in noise distributions. Extensive experiments and analyses, conducted on a wide range of real noise benchmarks demonstrate that denoising networks trained with our proposed framework exhibit significant improvements in robustness to unseen noise distributions.},
@@ -60,3 +42,95 @@ article{PhysRev.47.777,
     preview={afm2.png},
     tldr = {TL;DR: We present Adversarial Frequency Mixup (AFM), a novel training framework that enhances image denoising networks' robustness to out-of-distribution noise.}
 }
+
+
+
+
+
+
+
+
+
+unpublished{adversarial2025choi,
+  title={Adversarial Diffusion Distillation via Characteristic Function Matching},
+  author={\textbf{Choi}, \textbf{Jinyoung} and Hong, Chunsan and Han, Bohyung},
+  howpublished={Under review},
+  year={2025},
+  keywords={preprint}
+}
+
+@inproceedings{enhanced2024choi,
+  abbr={ICLR 2025},
+  title={Enhanced Diffusion Sampling via Extrapolation with Multiple ODE Solutions},
+  author={Choi, Jinyoung and Kang, Junoh and Han, Bohyung},
+  month = {Apr},
+  year={2025},
+  booktitle={ICLR},
+  selected  = {true},
+}
+
+
+
+@inproceedings{kim2024fifo,
+  abbr={NeurIPS 2024},
+  title={FIFO-Diffusion: Generating Infinite Videos from Text without Training},
+  author={Kim*, Jihwan and Kang*, Junoh and Choi, Jinyoung and Han, Bohyung},
+  booktitle={NeurIPS},
+  month = {Dec},
+  year={2024},
+  selected  = {true},
+}
+
+@article{training2024song,
+  abbr={arXiv},
+  title={A Training-Free Defense Framework for Robust Learned Image Compression},
+  author={Song, Myungseo and Choi, Jinyoung and Han, Bohyung},
+  howpublished={https://arxiv.org/abs/2401.11902},
+  year={2024},
+  month = { },
+  selected  = {false},
+}
+
+
+@inproceedings{kang2024observation,
+  abbr={CVPR 2024},
+  title={Observation-Guided Diffusion Probabilistic Models},
+  author={Kang*, Junoh and Choi*, Jinyoung and Choi, Sungik and Han, Bohyung},
+  booktitle={CVPR},
+  month = {June},
+  year={2024},   
+  selected  = {true},
+}
+
+@inproceedings{choi2022mcl,
+  abbr={NeurIPS 2022},
+  title={MCL-GAN: Generative Adversarial Networks with Multiple Specialized Discriminators},
+  author={Choi, Jinyoung and Han, Bohyung},
+  booktitle={NeurIPS},
+  year={2022},
+  month = {Dec},
+  selected  = {true},
+}
+
+@inproceedings{song2021variable,
+  abbr={ICCV 2021},
+  title={Variable-Rate Deep Image Compression through Spatially-Adaptive Feature Transform},
+  author={Song, Myungseo and Choi, Jinyoung and Han, Bohyung},
+  booktitle={ICCV},
+  month = {Oct},
+  year={2021},
+  selected  = {true},
+}
+
+
+
+@inproceedings{choi2020task,
+  abbr={ECCV 2020},
+  title={Task-Aware Quantization Network for JPEG Image Compression},
+  author={Choi, Jinyoung and Han, Bohyung},
+  booktitle={ECCV},
+  month = {Aug},
+  year={2020},
+  selected  = {true},
+}
+
