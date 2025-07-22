@@ -10,10 +10,11 @@
   - firstname: ["Seonguk"]
     url: https://seoseong.uk/
 
+"kang":
+  - firstname: ["Junoh"]
+    url: https://junoh-kang.github.io/
+
 "han":
   - firstname: ["Bohyung"]
     url: https://cv.snu.ac.kr/index.php/~bhhan/
 
-"junoh":
-  - firstname: ["Junoh"]
-    url: https://junoh-kang.github.io

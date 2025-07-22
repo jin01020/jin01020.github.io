@@ -37,8 +37,10 @@ layout: default
         {% endif %}
       </div>
     {% endif %}
-
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix">{{ content }}
+    <!-- 소셜 -->
+    <div class="navbar-brand social">{% include social.liquid %}</div>
+    </div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
