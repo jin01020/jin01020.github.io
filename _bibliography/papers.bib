@@ -72,7 +72,7 @@ InProceedings{Ryou_2024_CVPR,
   arxiv = {2405.11473},
   project_page = {https://jjihwan.github.io/projects/FIFO-Diffusion},
   code = {https://github.com/jjihwan/FIFO-Diffusion_public},
-  preview = {fifo-1400.webp}
+  preview = {fifo.png}
 }
 
 @article{training2024song,
@@ -86,7 +86,7 @@ InProceedings{Ryou_2024_CVPR,
   selected  = {false},
   abstract = {We study the robustness of learned image compression models against adversarial attacks and present a training-free defense technique based on simple image transform functions. Recent learned image compression models are vulnerable to adversarial attacks that result in poor compression rate, low reconstruction quality, or weird artifacts. To address the limitations, we propose a simple but effective two-way compression algorithm with random input transforms, which is conveniently applicable to existing image compression models. Unlike the naïve approaches, our approach preserves the original rate-distortion performance of the models on clean images. Moreover, the proposed algorithm requires no additional training or modification of existing models, making it more practical. We demonstrate the effectiveness of the proposed techniques through extensive experiments under multiple compression models, evaluation metrics, and attack scenarios.},
   arxiv = {2401.11902},
-  preview = {robust-1400.webp}
+  preview = {robust.png}
 
 }
 
@@ -129,7 +129,7 @@ InProceedings{Ryou_2024_CVPR,
   abstract = {We propose a versatile deep image compression network based on Spatial Feature Transform (SFT), which takes a source image and a corresponding quality map as inputs and produce a compressed image with variable rates. Our model covers a wide range of compression rates using a single model, which is controlled by arbitrary pixel-wise quality maps. In addition, the proposed framework allows us to perform task-aware image compressions for various tasks, e.g., classification, by efficiently estimating optimized quality maps specific to target tasks for our encoding network. This is even possible with a pretrained network without learning separate models for individual tasks. Our algorithm achieves outstanding rate-distortion trade-off compared to the approaches based on multiple models that are optimized separately for several different target rates. At the same level of compression, the proposed approach successfully improves performance on image classification and text region quality preservation via task-aware quality map estimation without additional model training. The code is available at the project website: https://github.com/micmic123/QmapCompression.},
   arxiv = {2108.09551},
   code = {https://github.com/micmic123/QmapCompression},
-  preview = {qmap-1400.webp}
+  preview = {qmap.png}
 }
 
 
@@ -145,6 +145,6 @@ InProceedings{Ryou_2024_CVPR,
   abstract = {We propose to learn a deep neural network for JPEG image compression, which predicts image-specific optimized quantization tables fully compatible with the standard JPEG encoder and decoder. Moreover, our approach provides the capability to learn task-specific quantization tables in a principled way by adjusting the objective function of the network. The main challenge to realize this idea is that there exist non-differentiable components in the encoder such as run-length encoding and Huffman coding and it is not straightforward to predict the probability distribution of the quantized image representations. We address these issues by learning a differentiable loss function that approximates bitrates using simple network blocks—two MLPs and an LSTM. We evaluate the proposed algorithm using multiple task-specific losses—two for semantic image understanding and another two for conventional image compression—and demonstrate the effectiveness of our approach
 to the individual tasks.},
   paper = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650307.pdf},
-  preview = {jpeg_quant-1400.webp}
+  preview = {jpeg_quant.png}
 }
 
