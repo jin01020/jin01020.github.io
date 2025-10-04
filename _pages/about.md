@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='http://ee.snu.ac.kr/en'>ECE, SNU, Seoul, Republic of Korea</a>. jin0.choi at snu.ac.kr
+subtitle: <a href='http://ee.snu.ac.kr/en'>Computer Vision Lab, SNU, Seoul, Republic of Korea</a>. jin0.choi at snu.ac.kr
 
 profile:
   align: right
