@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was invited to give a talk at POSTECH CV Lab. 
+I was invited to give a talk at POSTECH CV Lab.

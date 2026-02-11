@@ -14,7 +14,7 @@
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
-          >
+            >
             {% if site.data.venues[entry.abbr].url %}
               <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
             {% else %}
@@ -179,10 +179,8 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
-      {{entry.workshop}}
-    <div>
-
-    </div>
+    {{ entry.workshop }}
+    <div></div>
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
@@ -196,7 +194,7 @@
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
-            {% if entry.project_page %}
+      {% if entry.project_page %}
         {% if entry.project_page contains '://' %}
           <a href="{{ entry.project_page }}" class="btn btn-sm z-depth-0" role="button">project page</a>
         {% else %}
@@ -389,7 +387,6 @@
       </div>
     {% endif %}
 
-<div class="tldr">{{ entry.tldr }}</div>
-
+    <div class="tldr">{{ entry.tldr }}</div>
   </div>
 </div>
