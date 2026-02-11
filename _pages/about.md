@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hi, I'm an Assistant Professor of [Graduate School of Artificial Intelligence](https://aigs.unist.ac.kr), jointly with Dept. of [Computer Science and Engineering](https://cse.unist.ac.kr/), at [UNIST](https://www.unist.ac.kr).
+Hi, I'm an Assistant Professor in [Graduate School of Artificial Intelligence](https://aigs.unist.ac.kr) and Dept. of [Computer Science and Engineering](https://cse.unist.ac.kr/), at [UNIST](https://www.unist.ac.kr).
 
-My primary research interests lie in computer vision and deep learning, with a strong focus on generative models. My work aims to bridge mathematical theory with practical applications by developing novel training algorithms and enhancing the controllability and efficiency of data generation. Beyond algorithmic improvements, I seek to solve broad real-world problems from a generative perspective.
+My primary research interests lie in computer vision and deep learning, with a strong focus on generative models. My work aims to bridge mathematical theory with practical applications by developing novel training algorithms and enhancing the controllability and efficiency of data generation. Beyond algorithmic improvements, I seek to solve broad real-world problems from a generative perspective. My research background also includes learned image and video compression.
 
 Before joining UNIST, I was a postdoctoral researcher at the [Computer Vision Lab](http://cv.snu.ac.kr) of [Seoul National University](https://en.snu.ac.kr). I also worked as a senior research engineer at [LG PRI](https://lg-pri.com/) prior to my doctoral studies.
 
@@ -28,4 +28,4 @@ Before joining UNIST, I was a postdoctoral researcher at the [Computer Vision La
 - **M.S.** in Mathematics, [POSTECH](https://www.postech.ac.kr)
 - **B.S.** in Industrial and Management Engineering & Mathematics (Double Major), [POSTECH](https://www.postech.ac.kr)
 
-I am open to potential collaborations and research discussions. Please feel free to reach out at [jin0.choi at unist.ac.kr](mailto:jin0.choi@unist.ac.kr).
+I am open to potential collaborations and research discussions. Please feel free to reach out at jin0.choi at unist.ac.kr.
