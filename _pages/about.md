@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='http://ee.snu.ac.kr/en'>Computer Vision Lab, SNU, Seoul, Republic of Korea</a>. jin0.choi at snu.ac.kr
+subtitle: <a href='https://sites.google.com/view/geni-unist'>Generative Intelligence Lab, UNIST, Ulsan, Republic of Korea</a>. jin0.choi at unist.ac.kr
 
 profile:
   align: right
@@ -18,10 +18,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hi, I'm a postdoctoral researcher in [Computer Vision Lab](http://cv.snu.ac.kr) at [Seoul National University](https://en.snu.ac.kr/index.html), continuing my work under [Prof. Bohyung Han](https://cv.snu.ac.kr/index.php/~bhhan/) in the department of [Electrical & Computer Engineering](http://ee.snu.ac.kr/en).
+Hi, I'm an Assistant Professor of [Graduate School of Artificial Intelligence](https://aigs.unist.ac.kr), jointly with Dept. of [Computer Science and Engineering](https://cse.unist.ac.kr/), at [UNIST](https://www.unist.ac.kr).
 
-My current passion lies in generative models, particularly research that bridges mathematical theory and practical applications, essentially translating mathematical insights into solutions that matter. I'm excited to contribute to the growing world of generative AI.
+My primary research interests lie in computer vision and deep learning, with a strong focus on generative models. My work aims to bridge mathematical theory with practical applications by developing novel training algorithms and enhancing the controllability and efficiency of data generation. Beyond algorithmic improvements, I seek to solve broad real-world problems from a generative perspective. 
 
-Prior to my work at SNU, I studied Industrial Management Engineering and Mathematics at [POSTECH](https://www.postech.ac.kr/eng/index.do) and worked at [LG PRI](https://lg-pri.com/).
+Before joining UNIST, I was a postdoctoral researcher at the [Computer Vision Lab](http://cv.snu.ac.kr) of [Seoul National University](https://en.snu.ac.kr). I also worked as a senior research engineer at [LG PRI](https://lg-pri.com/) prior to my doctoral studies.
 
-Feel free to reach out at [jin0.choi at snu.ac.kr](mailto:jin0.choi@snu.ac.kr) for any inquiries or to chat about research!
+* **Ph.D.** in Electrical and Computer Engineering, [Seoul National University](https://en.snu.ac.kr)
+* **M.S.** in Mathematics, [POSTECH](https://www.postech.ac.kr)
+* **B.S.** in Industrial and Management Engineering & Mathematics (Double Major), [POSTECH](https://www.postech.ac.kr)
+
+I am open to potential collaborations and research discussions. Please feel free to reach out at [jin0.choi at unist.ac.kr](mailto:jin0.choi@unist.ac.kr). 
